@@ -22,4 +22,4 @@ jobs:
           commit-message: update local website copy
           title: Automated Updates to Local Website Copy
           body: This is an auto-generated PR with website updates.
-          branch: ${{ env.GITHUB_REF }}
+          branch: '${{ env.GITHUB_REF }}'
