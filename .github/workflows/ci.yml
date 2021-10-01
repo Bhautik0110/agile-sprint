@@ -23,3 +23,4 @@ jobs:
           title: Automated Updates to Local Website Copy
           body: This is an auto-generated PR with website updates.
           branch: '${{ env.GITHUB_REF }}'
+          base: 'main'
